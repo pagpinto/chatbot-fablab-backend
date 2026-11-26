@@ -4,12 +4,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from groq import Groq
 
-app = FastAPI(title="Assistente Virtual FabLab BioBIP")
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -29,7 +28,7 @@ class PedidoChat(BaseModel):
 
 @app.get("/")
 def raiz():
-    return {"estado": "online", "servico": "FabLab BioBIP Chatbot"}
+    return {"status": "ok", "servico": "chatbot-fablab-backend"}
 
 
 @app.post("/chat")
@@ -77,4 +76,11 @@ REGRAS IMPORTANTES:
         temperature=0.2,
     )
 
-    return {"resposta": resposta.choices[0].message.content}
+    texto = resposta.choices[0].message.content or ""
+
+    return {
+        "resposta": texto,
+        "reply": texto,
+        "response": texto,
+        "message": texto,
+    }
