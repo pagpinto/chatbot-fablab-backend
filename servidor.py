@@ -18,7 +18,9 @@ class Mensagem(BaseModel):
 
 # 2. O pedido agora traz a lista completa das mensagens trocadas
 class PedidoChat(BaseModel):
-    mensagens: list[Mensagem]
+    mensagens: list[Mensagem] | None = None
+    messages: list[Mensagem] | None = None
+
 
 @app.post("/chat")
 def responder(pedido: PedidoChat):
