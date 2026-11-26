@@ -1,25 +1,35 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from groq import Groq
 
-app = FastAPI()
+app = FastAPI(title="Assistente Virtual FabLab BioBIP")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# 1. Molde para cada mensagem individual do histórico
+cliente_ia = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+
+
 class Mensagem(BaseModel):
     role: str
     content: str
 
-# 2. O pedido agora traz a lista completa das mensagens trocadas
+
 class PedidoChat(BaseModel):
     mensagens: list[Mensagem] | None = None
     messages: list[Mensagem] | None = None
+
+
+@app.get("/")
+def raiz():
+    return {"estado": "online", "servico": "FabLab BioBIP Chatbot"}
 
 
 @app.post("/chat")
@@ -32,8 +42,10 @@ def responder(pedido: PedidoChat):
         if os.path.exists("base_fablab_biobip.md")
         else "base_conhecimento.txt"
     )
-    with open(nome_ficheiro, "r", encoding="utf-8") as f_site:
-        conteudo_site = f_site.read()
+    conteudo_site = ""
+    if os.path.exists(nome_ficheiro):
+        with open(nome_ficheiro, "r", encoding="utf-8") as f_site:
+            conteudo_site = f_site.read()
 
     info_manual = ""
     if os.path.exists("conhecimento_manual.md"):
