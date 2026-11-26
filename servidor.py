@@ -72,7 +72,7 @@ REGRAS IMPORTANTES:
     mensagens_api = [{"role": "system", "content": instrucoes_sistema}] + historico_recente
 
     resposta = cliente_ia.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=mensagens_api,
         temperature=0.2,
     )
