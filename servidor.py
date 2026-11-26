@@ -24,14 +24,21 @@ class PedidoChat(BaseModel):
 
 @app.post("/chat")
 def responder(pedido: PedidoChat):
-    with open("conhecimento_manual.md", "r", encoding="utf-8") as f_manual:
-        info_manual = f_manual.read()
+    historico = pedido.mensagens or pedido.messages or []
+    historico_recente = [msg.model_dump() for msg in historico[-10:]]
 
-    with open("base_fablab_biobip.md", "r", encoding="utf-8") as f_manual:
-        info_manual = f_manual.read()
+    nome_ficheiro = (
+        "base_fablab_biobip.md"
+        if os.path.exists("base_fablab_biobip.md")
+        else "base_conhecimento.txt"
+    )
+    with open(nome_ficheiro, "r", encoding="utf-8") as f_site:
+        conteudo_site = f_site.read()
 
-    with open("base_conhecimento.txt", "r", encoding="utf-8") as ficheiro:
-        conteudo_site = ficheiro.read()
+    info_manual = ""
+    if os.path.exists("conhecimento_manual.md"):
+        with open("conhecimento_manual.md", "r", encoding="utf-8") as f_manual:
+            info_manual = f_manual.read()
 
     instrucoes_sistema = f"""
 És o assistente virtual oficial do FabLab BioBIP.
@@ -39,27 +46,23 @@ Responde às perguntas dos visitantes em português de Portugal, de forma clara,
 
 REGRAS IMPORTANTES:
 1. Baseia as tuas respostas EXCLUSIVAMENTE na informação fornecida abaixo.
-2. Dá prioridade à secção "INFORMAÇÃO OFICIAL CURADA".
+2. Dá prioridade à secção "INFORMAÇÃO OFICIAL CURADA" se existir.
 3. Nunca inventes preços, horários, regras ou serviços que não estejam no texto.
 4. Se a resposta não estiver na informação abaixo, diz educadamente que não tens essa informação e sugere o contacto através do e-mail biobip@uportalegre.pt ou telefone (+351) 245 301 555.
 
 === INFORMAÇÃO OFICIAL CURADA ===
 {info_manual}
 
-=== CONTEÚDO EXTRAÍDO DO SITE ===
+=== CONTEÚDO DO SITE ===
 {conteudo_site}
 """
 
-    # 3. Juntar as instruções do sistema às últimas 10 mensagens da conversa
-    historico_recente = [msg.model_dump() for msg in pedido.mensagens[-10:]]
-    conversa_completa = [{"role": "system", "content": instrucoes_sistema}] + historico_recente
+    mensagens_api = [{"role": "system", "content": instrucoes_sistema}] + historico_recente
 
-    resposta = ollama.chat(
-        model="llama3.2",
-        messages=conversa_completa,
-        options={
-            "temperature": 0.2,
-            "num_ctx": 16384,
-        },
+    resposta = cliente_ia.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=mensagens_api,
+        temperature=0.2,
     )
-    return {"resposta": resposta["message"]["content"]}
+
+    return {"resposta": resposta.choices[0].message.content}
