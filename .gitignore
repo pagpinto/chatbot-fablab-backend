@@ -1,0 +1,10 @@
+# Ambiente virtual e cache do Python
+venv/
+__pycache__/
+*.pyc
+
+# Chaves e variáveis de ambiente (nunca enviar para o GitHub!)
+.env
+
+# Ficheiros do sistema macOS
+.DS_Store

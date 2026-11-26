@@ -1,0 +1,487 @@
+=== PÁGINA: https://fablab.ipportalegre.pt/sobre/ ===
+Sobre – FabLab
+Saltar para conteúdo
+Sobre
+FabLab
+>
+Sobre
+Sobre nós
+O FabLab do Instituto Politécnico de Portalegre nasce no âmbito do projeto BioBIP 2 – TechTRANSFER, e
+surge com o objetivo principal de apoiar na transformação de ideias em novos projetos e em realidade, ao
+permitir a experimentação e criação de novos produtos.
+Este espaço, equipado com diferentes tipos de equipamentos de última geração para apoio à criação, assume um papel fundamental ao potenciar a criatividade e o
+espírito inovador e empreendedor,  ajudando a materializar ideias em produtos e assim
+contribuir para o desenvolvimento da economia local.
+O que é um FABLab?
+O conceito de FABLAb (Fabrication Laboratory) surgiu em 2003 pela mão do Prof.
+Neil Gershenfeld
+, no âmbito da disciplina “How to do almost anything”, que o Professor lecionava no
+Center for Bits and Atoms
+(CBA) do
+Massachussets Institute of Technology
+(MIT).
+A ideia teve uma grande aceitação pela comunidade académica, facto que levou o professor a expandir o conceito, que rapidamente se disseminou pelo mundo com a criação de vários FabLabs.
+Destinatários
+Este laboratório destina-se essencialmente a pessoas com espirito criativo e empreendedor como por exemplo:  designers, arquitetos, engenheiros,
+makers
+,
+estudantes, porém encontra-se também disponível para apoiar as empresas e e o público em geral.
+
+=== PÁGINA: https://fablab.ipportalegre.pt/regulamento-do-fablab/ ===
+Regulamento do FabLab – FabLab
+Saltar para conteúdo
+Regulamento do FabLab
+FabLab
+>
+Regulamento do FabLab
+O BioBIP FabLab é um centro de prototipagem de fabricação digital integrado na rede global de FabLab. Tal como os restantes FabLab espalhados pelo mundo segue as principais diretivas da Fab Foundation nomeadamente a Carta de Princípios (Fab Chart).
+Conta com um conjunto de equipamentos e recursos humanos que se orientam para o desenvolvimento de atividades e projetos nos domínios da fabricação digital, eletrónica, robótica e ciência didática, concebidos e realizados em articulação com empresas e outros parceiros locais e as políticas de desenvolvimento regional.
+Pretende posicionar-se como especialista nas áreas da animação e multimédia, dando suporte à aprendizagem e desenvolvimento de projetos de natureza diversa que integrem imagem animada. Juntamente com o Laboratório de Animação e Multimédia, constitui o Centro de Experimentação e Prototipagem, Animação e Multimédia do IPP.
+Propõe-se servir a região numa perspetiva de funcionamento em rede, procurando estabelecer uma forte ligação entre as instituições de ensino, formação e o tecido empresarial e social.
+Os serviços e atividades a realizar pelo BioBIP FabLab incluem:
+a)
+Aluguer de equipamentos
+mediante marcação;
+b)
+Consultadoria técnica:
+apoio técnico na realização de projetos de fabricação digital bem como de utilização dos equipamentos;
+c)
+Prestação de serviços:
+desenvolvimento de projetos para o exterior;
+d)
+Dia aberto:
+abertura à comunidade uma vez por semana para dar a conhecer a realidade do BioBIP FabLab e experimentar técnicas, materiais, analisar acabamentos e discutir projetos em estudo;
+e)
+Workshops:
+corte a laser; modelação; formação especializada em utilização/atualização de software; Iniciação à eletrónica e à robótica; Introdução à programação em Scratch; Introdução à Programação de Arduino, Introdução à Programação em Python em Raspberry Pi, entre outros;
+f)
+Visitas programadas de escolas
+desde o 1º ciclo até ao secundário, com realização de atividades de experimentação com o objetivo de desenvolver o gosto pela ciência ao mesmo tempo que são desenvolvidas competências ao nível da literacia científica;
+g)
+Estágios
+: possibilidade de realização de estágios curriculares/profissionais (internos ou externos), através de protocolos existentes no IPP ou de celebração de novos acordos de cooperação.
+h) Colaborar e participar em
+ações de divulgação
+do IPP e de todas as suas estruturas.
+Sendo um estrutura inserida na BioBIP – Bioenergy and Business Incubator of Portalegre (BioBIP), o BioBIP FabLab rege-se igualmente, nos casos aplicáveis, pelo regulamento que define as regras gerais de acesso e funcionamento à BioBIP.
+Artigo 1.º
+Âmbito
+O presente regulamento define as regras gerais de acesso e de funcionamento do BioBIP FabLab.
+Artigo 2º
+Natureza
+O BioBIP FabLab é uma estrutura inserida na BioBIP – Bioenergy and Business Incubator of Portalegre (BioBIP) que oferece as condições para fomentar o espírito de inovação e criatividade, ao disponibilizar o acesso a conhecimento nas áreas STEAM (Science, Technology, Engineering, Arts and Mathematics) e a um conjunto de equipamentos para fabricação digital e prototipagem.
+Artigo 3º
+Missão e Objetivos
+1. O BioBIP FabLab tem como missão o suporte a toda a comunidade académica, tecido empresarial e comunidade em geral, no desenvolvimento de ideias de novos projetos e produtos através da fabricação digital, bem como de divulgação e formação nas áreas de eletrónica, robótica e STEAM em geral.
+2. São objetivos do BioBIP FabLab:
+a) Proporcionar uma interligação mais próxima entre as empresas e o mundo académico, promovendo a criação de produtos e serviços de cariz inovador;
+b) Ser um instrumento de dinamização, atração e renovação das atividades económicas, reforçando o apoio à criação de novos negócios e ao desenvolvimento dos existentes, diversificando a base económica do território;
+c) Desenvolver formação em áreas tecnológicas como a robótica, eletrónica, 3D e impressão 3D;
+d) Estreitar ligações entre os vários graus de ensino, nomeadamente através do desenvolvimento de atividades que visam fomentar competências ao nível das áreas STEAM;
+e) Contribuir para a atração de conhecimento através da realização de eventos;
+f) Potenciar ideias e invenções geradoras de negócios.
+Artigo 4.º
+Equipa técnica
+O BioBIP FabLab é formado por uma equipa técnica constituída por um coordenador e técnicos especialistas, à qual compete:
+a) A gestão dos equipamentos existentes no BioBIP FabLab, incluindo a responsabilidade pelo seu uso e manutenção;
+b) A organização e controlo de gestão das matérias-primas necessárias para o bom uso dos equipamentos;
+c) O apoio técnico ao funcionamento dos equipamentos existentes;
+d) A dinamização de atividades de formação e de divulgação na sua área de atuação.
+Artigo 5.º
+Recursos, espaços e equipamentos
+1. O BioBIP FabLab é constituído por um espaço físico composto por quatro ambientes:
+a) Zona de trabalho da equipa técnica do BioBIP FabLab;
+b) Zona de reuniões, formação e trabalho;
+c) Zona reservada para os equipamentos;
+d) Zona reservada para projetos de eletrónica.
+2. Os equipamentos disponíveis incluem, entre outros:
+a) Fresadora CNC de grandes dimensões;
+b) Fresadora de precisão;
+c) Impressoras 3D de filamento e de resina;
+d) Scanner 3D;
+e) Máquina de corte e gravação laser;
+f) Máquina de corte de vinil;
+g) Bancada para projetos de eletrónica com estação de soldar;
+h) Arduinos, Raspberry Pi com conjuntos de sensores e acessórios;
+i) Robots didáticos;
+j) Kits científicos na área STEAM;
+k) Computadores e software necessários ao funcionamento dos equipamentos;
+l) Ferramentas de trabalho.
+2. Pode ser efetuada a reserva de alguns dos equipamentos através de formulário próprio, sujeita a disponibilidade e validação por parte da equipa técnica.
+3. O controlo e supervisão dos equipamentos é realizado pelos técnicos do BioBIP FabLab sendo que os mesmos são responsáveis por fornecer toda a informação aos utilizadores tais como as regras de utilização dos equipamentos e de segurança.
+Artigo 6.º
+Horário e agendamentos
+1. O BioBIP FabLab funciona de segunda-feira a sexta-feira entre as 9h30 e as 17h30.
+2. A reserva de equipamentos requer o agendamento prévio através de formulário disponível no site http://fablab.ipportalegre.pt.
+3. Todas as quartas-feiras terão lugar os dias-abertos, dia em que o espaço está aberto à comunidade para dar a conhecer a realidade do BioBIP FabLab e experimentar técnicas, materiais, analisar acabamentos e discutir projetos em estudo.
+4. A equipa do BioBIP FabLab reserva-se ao direito de alterar o horário de funcionamento e de encerrar as instalações para ocasiões especiais como eventos externos, manutenção, limpeza, formações internas, entre outros.
+Artigo 7.º
+Prestação de serviços, preços
+1. Os valores de utilização dos equipamentos e da prestação de serviços de suporte operacional são os estabelecidos no Anexo I ao presente regulamento.
+2. Sobre os valores base estabelecidos no Anexo I do presente regulamento, serão aplicados os seguintes descontos:
+a) Aos membros da comunidade académica do IPP (estudante, docente ou funcionário não docente) será aplicado um desconto de 25%;
+b) Às Instituições de Ensino, Instituições Particulares de Solidariedade Social, Associações Desportivas, Culturais ou Empresariais bem como entidades do Sistema Científico e Tecnológico será aplicado um desconto de 25%;
+c) Às empresas incubadas na BioBIP será aplicado um desconto de 10%.
+3. Os valores e descontos referidos nos pontos anteriores, serão revistos anualmente, para adequação de preços, revisão e atualização de equipamentos e/ou serviços prestados ou sempre que se justifique.
+Artigo 8.º
+Cumprimento de Normas e Penalidades
+1. Os utilizadores que desejarem utilizar o BioBIP FabLab aceitam tacitamente cumprir o presente regulamento.
+2. Os utilizadores do BioBIP FabLab são responsáveis por:
+Segurança: saber trabalhar sem colocar em risco pessoas e equipamentos;
+Limpeza: deixar o espaço  limpo;
+Operações: cooperar com operações de manutenção e de reparação, reportando qualquer necessidade detetada ao nível de ferramentas, consumíveis e incidentes.
+3. O autor de danos causados a pessoas, equipamentos e/ou às configurações dos mesmos é solidariamente responsável pela reparação dos prejuízos causados ao BioBIP FabLab ou a terceiros.
+Artigo 9.º
+Direitos de propriedade
+1. É da exclusiva responsabilidade de cada utilizador, a quem compete adotar as medidas adequadas, a preservação e salvaguarda de quaisquer questões relativas à propriedade intelectual.
+2. Como consta das diretivas da Fab Foundation, a Carta de Princípios (Anexo II) promove a cocriação e o acesso aos processos de forma aberta, assim como a divulgação do conhecimento, sendo parte importante do movimento a adoção dos princípios das diretivas do licenciamento Creative Commons sempre que possível, sem descurar o referido no parágrafo anterior.
+Artigo 10.º
+Disposições Finais
+1. Os casos omissos e as dúvidas de interpretação ao presente regulamento devem ser alvo de apreciação pela coordenação do BioBIP FabLAB.
+2. As reclamações referentes aos procedimentos da coordenação devem ser dirigidas ao Presidente do Instituto Politécnico de Portalegre.
+Artigo 11.º
+Entrada em vigor
+O presente regulamento entra em vigor no dia seguinte ao da sua publicação nos termos legais.
+Portalegre, 28 de março de 2023
+Pesquisar por:
+Artigos recentes
+Politécnico de Portalegre agora é Universidade Politécnica de Portalegre
+BioBIP FabLAB marcou presença no Bootcamp 2026 do LabAberto e no Encontro Nacional de Fab Labs
+FabLab acolhe estagiários da área de Informática – Sistemas
+Visita internacional à BioBIP FabLab
+Alunos de Design de Comunicação visitaram o FabLab
+Novembro 2026
+S
+T
+Q
+Q
+S
+S
+D
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+(Morada completa...)
+
+=== PÁGINA: https://fablab.ipportalegre.pt/carta-de-principios-fab-chart/ ===
+Carta de Princípios (Fab Chart) – FabLab
+Saltar para conteúdo
+Carta de Princípios (Fab Chart)
+FabLab
+>
+Carta de Princípios (Fab Chart)
+Os FabLabs são feitos à imagem das diretivas da Fab Foundation, sendo estas plasmadas de forma sintética na Carta de Princípios a Fab Chart (os FabLabs nasceram no Laboratory for Bits & Atoms do MIT – Massachusetts Institute of Technology, EUA em 2003).
+O que é um FabLab?
+Os FabLabs são uma rede global de laboratórios locais, possibilitando a invenção e fornecendo acesso a ferramentas para a fabricação digital.
+O que tem um FabLab?
+Os FabLabs dispõem de um conjunto de equipamentos em evolução e com capacidade para fazer (quase) qualquer coisa, permitindo que pessoas e projetos sejam partilhadas.
+O que permite fazer a rede de FabLab?
+Apoio operacional, educativo, técnico, financeiro e logístico, para além do que está disponível num laboratório.
+Quem pode usar um laboratório de fabricação?
+Os FabLabs estão disponíveis como um recurso da comunidade, oferecendo acesso aberto para indivíduos, bem como acesso agendado para programas.
+Quais são as suas responsabilidades?
+Segurança: não ferir pessoas nem danificar máquinas
+Operações: apoiar na limpeza, manutenção e melhoria do laboratório
+Conhecimento: contribuir para a documentação e educação
+Quem é o dono das invenções nos FabLab?
+Projetos e processos desenvolvidos em FabLab podem ser protegidos e vendidos como o inventor escolher, no entanto, deve permanecer disponível para uso e aprendizagem pelos outros.
+Como é que as empresas podem utilizar um FabLab?
+As atividades comerciais podem ser prototipadas e incubadas num FabLab, mas não devem entrar em conflito com outras utilizações, devem evoluir para além do FabLab, em vez permanecerem dentro do laboratório e espera-se que beneficiem os inventores, Labs e redes que contribuem para o seu sucesso.
+Pesquisar por:
+Artigos recentes
+Politécnico de Portalegre agora é Universidade Politécnica de Portalegre
+BioBIP FabLAB marcou presença no Bootcamp 2026 do LabAberto e no Encontro Nacional de Fab Labs
+FabLab acolhe estagiários da área de Informática – Sistemas
+Visita internacional à BioBIP FabLab
+Alunos de Design de Comunicação visitaram o FabLab
+Novembro 2026
+S
+T
+Q
+Q
+S
+S
+D
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+(Morada completa...)
+
+=== PÁGINA: https://fablab.ipportalegre.pt/tabela-de-precos/ ===
+Tabela de preços – FabLab
+Saltar para conteúdo
+Tabela de preços
+FabLab
+>
+Tabela de preços
+Os valores de utilização de equipamentos e da prestação do serviço de suporte operacional
+Máquinas, Equipamentos, Serviços
+Valor
+Material
+Impressão 3D Prusa Mk3S
+11,00 € / hora
+PLA
+0,40 € / gr
+Impressão 3D Stratasys F170
+11,00 € / hora
+PLA*
+0,50 € / cm
+3
+* Outro material sob consulta
+Impressão 3D Form Lab Form 3+
+11,00 € / hora
+Resina
+2,00 € / ml
+Scanner 3D
+11,00 € / hora
+n.a.
+Fresadora CNC de grande formato
+11,00 € 1ª hora
+15,00 € / hora (após 1ª h)
+Sob consulta
+Fresadora CNC de precisão
+11,00 € / hora
+Sob consulta
+Corte e gravação laser
+11,00 € 1ª hora
+15,00 € / hora (após 1ª h)
+Sob consulta
+Corte vinil
+11,00 € / hora
+Sob consulta
+Desenvolvimento de workshops
+Orçamento sob consulta
+Desenvolvimento técnico-criativo
+Orçamento sob consulta
+Notas:
+1.
+Todos os serviços prestados são executados ou apoiados por um técnico especializado do BioBIP FabLab;
+2.
+Aos valores indicados deve ser acrescentado o IVA em vigor, podendo ser aplicados os descontos previstos no Artigo 7.º do presente regulamento.
+Pesquisar por:
+Artigos recentes
+Politécnico de Portalegre agora é Universidade Politécnica de Portalegre
+BioBIP FabLAB marcou presença no Bootcamp 2026 do LabAberto e no Encontro Nacional de Fab Labs
+FabLab acolhe estagiários da área de Informática – Sistemas
+Visita internacional à BioBIP FabLab
+Alunos de Design de Comunicação visitaram o FabLab
+Novembro 2026
+S
+T
+Q
+Q
+S
+S
+D
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+(Morada completa...)
+
+=== PÁGINA: https://fablab.ipportalegre.pt/protocolos-e-parcerias/ ===
+Protocolos e parcerias – FabLab
+Saltar para conteúdo
+Protocolos e parcerias
+FabLab
+>
+Protocolos e parcerias
+INSTITUIÇÕES DE ENSINO
+Agrupamento de Escolas José Régio
+O presente protocolo tem como objetivo promover a cooperação a todos os níveis entre as partes, articulando posições e atuando em conjunto na defesa dos interesses que comumente prosseguem, para o desenvolvimento de ações em parceria e a realiza sensibilização para as áreas das tecnologias STEAM como metodologia para uma abordagem de aprendizagem multidisciplinar em ambiente académico fomentando o espírito de inovação, criatividade.
+Neste âmbito, as ações a dinamizar conjuntamente são essencialmente caracterizadas por uma abordagem
+experimental das tecnologias de desenho e didática, utilizando linguagens de programação adequadas aos níveis de conhecimento e grupos de participantes, integrados nos ciclos de estudos lecionadas no AEJR. D
+parte as seguintes atividades:
+A
+)  Realização de workshops sobre: desenho e corte a laser; Modelação e impressão 3D; Formação especializada em utilização/atualização de software; Iniciação à eletrónica e à robótica; Introdução à programação em Scratch; Introdução à Programação de Arduino; Introdução à Programação em Python em Raspberry Pi, entre outros;
+B
+)  Visitas programadas de escolas do AEJR, com realização de atividades de experimentação com o objetivo
+de desenvolver o gosto pela ciência ao mesmo tempo que são desenvolvidas competências ao nível da
+literacia científica;
+C
+)  Estágios: possibilidade de realização de estágios curriculares/profissionais (internos ou externos), através
+de protocolos existentes no IPP ou de celebração de novos acordos de cooperação;
+D
+)  Outras atividades que se verifiquem como enquadráveis no âmbito da missão do BioBIPFabLab.
+Pesquisar por:
+Artigos recentes
+Politécnico de Portalegre agora é Universidade Politécnica de Portalegre
+BioBIP FabLAB marcou presença no Bootcamp 2026 do LabAberto e no Encontro Nacional de Fab Labs
+FabLab acolhe estagiários da área de Informática – Sistemas
+Visita internacional à BioBIP FabLab
+Alunos de Design de Comunicação visitaram o FabLab
+Novembro 2026
+S
+T
+Q
+Q
+S
+S
+D
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+(Morada completa...)
+
+=== PÁGINA: https://www.biobip.pt/fablab/ ===
+FabLab - Laboratório de Fabricação Digital e Robótica - BioBIP - Business Incubator of Portalegre
+Pular para o conteúdo
+Sem resultados
+Get in Touch
+FabLab
+Laboratório de Fabricação Digital e Robótica
+O FabLab do Instituto Politécnico de Portalegre nasceu no âmbito do projeto BioBIP 2 – TechTRANSFER, e surge com o objetivo principal de apoiar na transformação de ideias em novos projetos e em realidade, ao permitir a experimentação e criação de novos produtos. Este espaço, equipado com diferentes tipos de equipamentos de última geração para apoio à criação, assume um papel fundamental ao potenciar a criatividade e o espírito inovador e empreendedor, ajudando a materializar ideias em produtos e assim contribuir para o desenvolvimento da economia local.
+Contacte-nos
+O que é um FABLab?
+O conceito de FABLAb (Fabrication Laboratory) surgiu em 2003 pela mão do Prof. Neil Gershenfeld, no âmbito da disciplina “How to do almost anything”, que o Professor lecionava no Center for Bits and Atoms (CBA) do Massachussets Institute of Technology (MIT). A ideia teve uma grande aceitação pela comunidade académica, facto que levou o professor a expandir o conceito, que rapidamente se disseminou pelo mundo com a criação de vários FabLabs.
+Saiba mais
+Destinatários
+Este laboratório destina-se essencialmente a pessoas com espirito criativo e empreendedor como por exemplo: designers, arquitetos, engenheiros, makers, estudantes, porém encontra-se também disponível para apoiar as empresas e o público em geral.
+Saiba mais
+Equipamentos e Serviços
+O FabLab possui equipamentos de última de geração e de um conhecimento técnico especializado.
+Fresadoras CNC
+Corte e gravação a laser
+Corte de vinil
+Impressora 3D
+Educação
+Saiba mais
+A nossa equipa
+Valentim Realinho
+Pedro Pinto
+Coordenador
+FabLab
+Laboratório de Fabricação Digital e Robótica
+Especialista de Sistemas e Tecnologia de Informação
+FabLab
+Laboratório de Fabricação Digital e Robótica
+vrealinho@ipportalegre.pt
+pedro.pinto@ipportalegre.pt
+Notícias
+Projetos Incubados
+23 de Novembro, 2026
+Finao Biotech lança produto inovador no mercado brasileiro
+A participação da FINAO Biotech, no IBEROTECH – Congresso da Sociedade Iberoamericana de Flebologia, Linfologia e Cirurgia Vascular, ficou…
+Universidade Politécnica de Portalegre
+Visitas
+16 de Outubro, 2026
+BioBIP recebe comitiva norte-americana da AESA
+A BioBIP – Business Incubator of Portalegre acolheu, a 16 de outubro, a visita de uma comitiva da AESA…
+Universidade Politécnica de Portalegre
+Visitas
+25 de Setembro, 2026
+BioBIP acolhe visita de avaliação da aliança europeia EU4Dual à UPP
+A Universidade Politécnica de Portalegre (UPP) recebeu o Professor Doutor Georg Nagler, no âmbito do processo de avaliação por…
+BioBIP
+Universidade Politécnica de Portalegre
+Visitas
+22 de Setembro, 2026
+BioBIP recebeu comitiva do Instituto Federal do Acre no âmbito de nova parceria com a UPP
+A BioBIP – Business Incubator of Portalegre recebeu uma comitiva do Instituto Federal de Educação, Ciência e Tecnologia do…

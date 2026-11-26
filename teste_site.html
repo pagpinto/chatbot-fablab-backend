@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste do Chatbot</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f9; padding: 40px; }
+        /* Botão flutuante no canto inferior direito */
+        #chat-botao {
+            position: fixed; bottom: 20px; right: 20px;
+            background: #0066cc; color: white; border: none;
+            border-radius: 50px; padding: 15px 22px; font-size: 16px;
+            cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        /* Janela do chat */
+        #chat-janela {
+            display: none; position: fixed; bottom: 80px; right: 20px;
+            width: 340px; height: 450px; background: white;
+            border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+            flex-direction: column; overflow: hidden;
+        }
+        #chat-topo { background: #0066cc; color: white; padding: 15px; font-weight: bold; }
+        #chat-mensagens { flex: 1; padding: 15px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+        .msg { padding: 10px 14px; border-radius: 10px; max-width: 80%; font-size: 14px; white-space: pre-wrap; }
+        .utilizador { background: #0066cc; color: white; align-self: flex-end; }
+        .bot { background: #e9ecef; color: #222; align-self: flex-start; }
+        #chat-form { display: flex; border-top: 1px solid #ddd; }
+        #chat-input { flex: 1; border: none; padding: 12px; outline: none; }
+        #chat-enviar { background: #0066cc; color: white; border: none; padding: 0 18px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1>Página de Teste do Meu Site</h1>
+    <p>Clica no botão azul no canto inferior direito para falar com o assistente.</p>
+
+    <button id="chat-botao" onclick="alternarChat()">💬 Ajuda</button>
+
+    <div id="chat-janela">
+        <div id="chat-topo">Assistente Virtual</div>
+        <div id="chat-mensagens">
+            <div class="msg bot">Olá! Em que posso ajudar sobre o nosso espaço?</div>
+        </div>
+        <form id="chat-form" onsubmit="enviarPergunta(event)">
+            <input type="text" id="chat-input" placeholder="Escreve a tua dúvida..." required>
+            <button type="submit" id="chat-enviar">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        // Lista que guarda a memória da conversa enquanto a página estiver aberta
+        let historicoConversa = [];
+
+        function alternarChat() {
+            const janela = document.getElementById("chat-janela");
+            janela.style.display = janela.style.display === "flex" ? "none" : "flex";
+        }
+
+        async function enviarPergunta(evento) {
+            evento.preventDefault();
+            const input = document.getElementById("chat-input");
+            const mensagens = document.getElementById("chat-mensagens");
+            const texto = input.value.trim();
+            if (!texto) return;
+
+            // Mostrar pergunta no ecrã e guardar na memória
+            mensagens.innerHTML += `<div class="msg utilizador">${texto}</div>`;
+            historicoConversa.push({ role: "user", content: texto });
+            input.value = "";
+
+            const idTemp = "temp-" + Date.now();
+            mensagens.innerHTML += `<div class="msg bot" id="${idTemp}">A escrever...</div>`;
+            mensagens.scrollTop = mensagens.scrollHeight;
+
+            try {
+                // Enviar TODO o histórico da conversa para o servidor Python
+                const resposta = await fetch("http://127.0.0.1:8000/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ mensagens: historicoConversa })
+                });
+                const dados = await resposta.json();
+
+                // Mostrar resposta no ecrã e guardar na memória
+                document.getElementById(idTemp).innerText = dados.resposta;
+                historicoConversa.push({ role: "assistant", content: dados.resposta });
+            } catch (erro) {
+                document.getElementById(idTemp).innerText = "Erro ao ligar ao servidor Python.";
+            }
+            mensagens.scrollTop = mensagens.scrollHeight;
+        }
+    </script>
+
+</body>
+</html>
