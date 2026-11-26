@@ -46,6 +46,11 @@ def responder(pedido: PedidoChat):
         with open(nome_ficheiro, "r", encoding="utf-8") as f_site:
             conteudo_site = f_site.read()
 
+    regulamento = ""
+    if os.path.exists("regulamento-fablab.md"):
+        with open("regulamento-fablab.md", "r", encoding="utf-8") as f_reg:
+            regulamento = f_reg.read()
+
     info_manual = ""
     if os.path.exists("conhecimento_manual.md"):
         with open("conhecimento_manual.md", "r", encoding="utf-8") as f_manual:
